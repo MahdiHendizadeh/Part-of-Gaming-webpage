@@ -1,0 +1,45 @@
+img{
+   width: 100px;
+   border-radius: 8px;
+}
+body{
+   background-color: rgb(190, 134, 241);
+}
+header{
+   color: red;
+   background-color: black;
+   padding: 10px;
+   border-radius: 8px;
+}
+.main{
+   background-color:purple;
+   border-radius: 8px;
+   padding:0 20px;
+}
+.container{
+   max-width: 1080px;
+   margin: 0 auto;
+}
+.media{
+   width:calc(50% - 20px);
+   background-color:rgb(245, 0, 245);
+   border-radius: 10px;
+   float: left;
+   padding: 20px;
+   box-sizing: border-box;
+   margin: 5px 10px;
+}
+.media:nth-child(odd){
+ clear: left;
+}
+.media-image{
+   float:left;
+   margin-right: 10px;
+  
+}
+.media-body{
+   overflow:auto;
+}
+.media-body h4{
+   margin-top: 0;
+}
